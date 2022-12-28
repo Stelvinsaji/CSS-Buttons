@@ -1,0 +1,22 @@
+.round {
+  font-size: 20px;
+  font-family: "Readex Pro", sans-serif;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  /* This is gonna give us the rounded corners */
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background: #FFDBAC;
+  cursor: pointer;
+}
+
+.round:not(.round--selected):hover {
+  background: #F1C27D;
+}
+
+/* Applying new class when the user clicks on the button */
+.round--selected {
+  background: #8D5524;
+  color: #fff
+}
